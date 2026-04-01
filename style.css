@@ -1,1 +1,60 @@
-/* add your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --base-color:#FFF8F0;
+    --text-color:#2C2C2C;
+    --primary-red: #8B1A1A;
+    --secondary-green:#5C6B45;
+    --decorative-gold:#d87b1d;
+    --strong-white:#FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Bonheur Royale, sans-serif;
+    color: var(--text-color);
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+nav {
+    height:60px;
+    background-color: #FFF8F0;
+    justify-items: flex-end;
+    align-items: center;
+}
+nav .links-nav{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+
+}
+nav a{
+    
+    height: 100%;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+
+
+}
+nav a:hover{
+    
+color: #d87b1d;
+
+
+}
+nav .home-link{
+
+    margin-right: auto;
+}

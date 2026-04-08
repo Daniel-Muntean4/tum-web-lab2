@@ -112,3 +112,126 @@ button:hover{
     margin: 0% 0 0 10%;
 
 }
+
+
+.about {
+    background-color: #FFF8F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about h2 {
+    margin-top: 3.5rem;
+    font-size: 4.5rem;
+    color: #5C6B45;
+    margin-bottom: 1.5rem;
+}
+
+.about p {
+    font-size: 2rem;
+    margin: 1rem 3rem;
+}
+
+.about .about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about img {
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.menu {
+    background-color: #FFF8F0;
+    padding-bottom: 3rem;
+}
+
+.menu h2 {
+    font-size: 4.5rem;
+    color: #5C6B45;
+    padding-bottom: 2.5rem;
+    padding-top: 3.5rem;
+    text-align: center;
+}
+
+.menu .panels {
+
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    display: grid;
+    gap: 1.3rem;
+    grid-template-areas: "recipe1 recipe2 recipe3"
+        "recipe4 recipe5 recipe6";
+
+}
+
+.menu .panels .panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color:whitesmoke;
+    border: #d87b1d solid 1px;
+    border-radius: 10px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.menu .panels .panel img {
+width: auto;
+height: auto;}
+
+
+
+.menu .panels .panel h3 {
+    padding: 1rem 1rem 0 1rem;
+    font-size: 2.5rem;
+    color: #d87b1d;
+}
+
+.menu .panels .panel p {
+    padding: 1.5rem;
+}
+
+.menu .panels .panel .price {
+    font-weight: 700;
+}
+
+.contact {
+    background-color: #FFF8F0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+
+}
+
+.contact h4 {
+
+    margin-top: 3.5rem;
+    font-size: 2.5rem;
+    color: #5C6B45;
+    margin-bottom: 1.5rem;
+    
+
+}
+
+.contact ul li {
+    font-size: 1.5rem;
+    line-height: 120%;
+    white-space: nowrap;
+    
+}
+iframe{
+    padding-top: 5.5rem;
+    width: 75%;
+
+
+    
+}

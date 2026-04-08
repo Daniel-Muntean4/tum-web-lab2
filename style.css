@@ -54,6 +54,7 @@ nav a:hover {
 }
 
 nav .home-link {
+    font-size: 1.8rem;
 
     margin-right: auto;
     font-family: Bonheur Royale, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -86,6 +87,7 @@ button {
 }
 button:hover{
     transform: scale(1.1);
+    transition: ease-in-out 200ms 100ms ;
 }
 .hero-text {
     position: absolute;
@@ -99,11 +101,14 @@ button:hover{
 }
 
 .hero-text h1 {
-    color: #FFF8F0;
+    color: #d87b1d;
     font-family: Bonheur Royale, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .hero-text h1:hover{
-    transform: scale(1.05);
+    transition: 300ms 200ms ease-in;
+    transform: scale(1.1);
+    color: #d87b1d;
+
 }
 
 .hero-text p {
@@ -196,6 +201,7 @@ height: auto;}
 }
 
 .menu .panels .panel .price {
+    letter-spacing: 1px;
     font-weight: 700;
 }
 
@@ -228,8 +234,10 @@ height: auto;}
     white-space: nowrap;
     
 }
-iframe{
-    padding-top: 5.5rem;
+.contact iframe{
+    position: relative;
+    top: 25px;
+
     width: 75%;
 
 

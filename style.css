@@ -18,6 +18,8 @@
     font-family: Poppins, Bonheur Royale, sans-serif;
     color: var(--text-color);
     font-size: 16px;
+    scroll-behavior: smooth;
+
 }
 
 

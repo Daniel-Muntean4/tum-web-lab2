@@ -18,8 +18,7 @@
     font-family: Poppins, Bonheur Royale, sans-serif;
     color: var(--text-color);
     font-size: 16px;
-    scroll-behavior: smooth;
-
+    scroll-behavior: smooth 1s;
 }
 
 
@@ -75,7 +74,7 @@ nav .home-link {
 }
 
 
-button {
+.btn {
     position: absolute;
     top: 75%;
     background-color: #8B1A1A;
@@ -83,11 +82,14 @@ button {
     border: none;
     font-size: 3em;
     border-radius: 20px;
+    text-decoration: none;
     color: #FFFFFF;
     font-weight: 700;
     font-family: Poppins, Bonheur Royale
 }
-button:hover{
+
+
+.btn:hover{
     transform: scale(1.1);
     transition: ease-in-out 200ms 100ms ;
 }
@@ -245,3 +247,4 @@ height: auto;}
 
     
 }
+

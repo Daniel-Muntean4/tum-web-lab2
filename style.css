@@ -286,11 +286,55 @@ height: auto;}
         position:fixed;
         bottom: 120px;
         right: 20px;
-        width: 100vw;
+        width: 400px
     
         
     }
 
+
+    .chef img{
+        position:fixed;
+        bottom: 120px;
+        right: 40px;
+        height: 120px;
+        width: 80px;
+        animation: appear 0.6s ease-in 1s 1 normal both,
+        slideToLeft 0.6s ease-in 2s 1 normal both,
+        flicker 6s ease-in 5s infinite normal both ;
+            transform-origin: bottom center;
+    
+    
+    }
+    
+    .chef::before{
+        content: "Welcome!";
+        position: absolute;
+        z-index: 1;
+        top: 140px;
+        right: 80px;
+        color: #2C2C2C;
+        background-color: #FFF8F0;
+        padding: 3vh 0.75vw;
+        border: #d87b1d 2px solid;
+        border-radius: 15px;
+        opacity: 0;
+    
+    }
+    .chef:hover::before{
+        content: "Welcome!";
+        position: absolute;
+        z-index: 1;
+        top: 120px;
+        right: 80px;
+        color: #2C2C2C;
+        background-color: #FFF8F0;
+        padding: 2vh 5vw;
+        border: #d87b1d 1px solid;
+        border-radius: 15px;
+        opacity: 1;
+    
+    }
+    
 
 
 @media(max-width:870px){
@@ -457,6 +501,62 @@ height: auto;}
     width: 100%;
     
 }
+.chef{
+    height: 30vh;
+    z-index: 1;
+   
+        position:fixed;
+        bottom: 120px;
+        right: 20px;
+        width: 250px;
+    
+        
+    }
+
+
+    .chef img{
+        position:fixed;
+        bottom: 120px;
+        right: 40px;
+        height: 120px;
+        width: 80px;
+        animation: appear 0.6s ease-in 2s 1 normal both,
+        slideToLeft 0.6s ease-in 2s 1 normal both,
+        flicker 6s ease-in 5s infinite normal both ;
+            transform-origin: bottom center;
+    
+    
+    }
+    
+    .chef::before{
+        content: "Welcome!";
+        position: absolute;
+        z-index: 1;
+        top: 140px;
+        right: 80px;
+        color: #2C2C2C;
+        background-color: #FFF8F0;
+        padding: 2vh 5vw;
+        border: #d87b1d 1px solid;
+        border-radius: 15px;
+        opacity: 0;
+    
+    }
+.chef:hover::before{
+    content: "Welcome!";
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    right: 80px;
+    color: #2C2C2C;
+    background-color: #FFF8F0;
+    padding: 2vh 5vw;
+    border: #d87b1d 1px solid;
+    border-radius: 15px;
+    opacity: 1;
+
+}
+
  
 
 

@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bella Notte</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="reset.css">
 
@@ -12,80 +14,140 @@
 <body>
 
   <header>
-  <nav>
+  <div class="navi">
     <div class="links-nav">
       <a class="home-link" href="#">Bella Notte</a>
       <a href="#abt">About</a>
       <a href="#mn">Menu</a>
-      <a href="#cntct">Contact </a>
+      <a href="#cntct" ><div class="contact-btn">Contact</div> </a>
     </div>
         
-  </nav>
+  </div>
   </header>
   <section class="hero">
     <div class="hero-text">
       <h1>Bella Notte</h1>
       <p>Authentic Italian flavors, passed down through three generations.</p>
     </div>
-    <a href="#cntct" class="btn">Order now</a>
+    <a href="#cntct" class="butn">Order now</a>
   </section>
   <section>
     <div id="abt" class="about">
     <h2>Our Story</h2>
-    <div class="about-content">
-      <div class="about-text">
+    <div class="about-info">
         <p>In 1987, Nonna Maria left her small village near Naples with little more than a suitcase and a handwritten recipe book. What started as weekend dinners for friends in a tiny apartment kitchen grew into something the whole neighborhood looked forward to.</p>
         <p>Today, Bella Notte continues that tradition. Every dish is prepared with the same recipes, the same care, and the same belief that a good meal brings people together. We don't rush. We don't cut corners. We cook the way Nonna taught us.</p>
     
-      </div>
       <div class="about-image">
         <img src="images/image-about-us.png" alt="">
       </div>
+    </div>
   </div>
   </div>
 
   <section>
-    <div id="mn" class="menu">
-    <h2>Featured Menu</h2>
-    <div class="panels">
+    <div id="mn" class=" bg-beige">
+    <h2 class="text-center display-2 pt-4 mx-1 success" >Featured Menu</h2>
+    <div class="row gap-1 gap-xl-2 align-items-center justify-content-around">
       
-      <div class="recipe1">
-        <div class="panel">
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="card card-center m-3 mx-4  p-2 border-secondary" style="max-width: 30rem;">
           
-        <h3>Bruschetta Classica</h3>
-        <p>Toasted bread with fresh tomatoes, basil, garlic, and olive oil</p>
-        <p class="price">€6</p></div>
+        <h3 class="card-title display-6 text-center m-2">Bruschetta Classica</h3>
+        <p class="text-large text-center mt-3">Toasted bread with fresh tomatoes, basil, garlic, and olive oil</p>
+        <p class="text-large text-center mt-3 mb-1" class="price">€6</p></div>
       </div>       
-      <div class="recipe2">
-        <div class="panel">
-        <h3>Caprese Salad</h3>
-        <p>Buffalo mozzarella, ripe tomatoes, basil, balsamic glaze</p>
-        <p class="price">€8</p></div>
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="card card-center mb-3 mx-4  p-2 border-secondary" style="max-width: 30rem;">
+          
+        <h3 class="card-title display-6 text-center m-2">Caprese Salad</h3>
+        <p class="text-large text-center mt-3">Buffalo mozzarella, ripe tomatoes, basil, balsamic glaze</p>
+        <p class="text-large text-center mt-3 mb-1" class="price">€6</p></div>
+      </div> 
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="card card-center mb-3 mx-4   p-2 border-secondary" style="max-width: 30rem;">
+          
+        <h3 class="card-title display-6 text-center m-2">Tagliatelle al Ragù</h3>
+        <p class="text-large text-center mt-3">Pasta with slow-cooked Bolognese</p>
+        <p class="text-large text-center mt-3 mb-1" class="price">€16</p></div>
+      </div> 
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="card card-center mb-3 mx-4   p-2 border-secondary" style="max-width: 30rem;">
+          
+        <h3 class="card-title display-6 text-center m-2">Risotto ai Funghi</h3>
+        <p class="text-large text-center mt-3">Creamy Arborio rice with wild porcini mushrooms</p>
+        <p class="text-large text-center mt-3 mb-1" class="price">€16</p></div>
+      </div> 
+
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="card card-center mb-3 mx-4  p-2 border-secondary" style="max-width: 30rem;">
+          
+        <h3 class="card-title display-6 text-center m-2">Tiramisù della Nonna</h3>
+        <p class="text-large text-center mt-3">Our grandmother's original recipe, made fresh daily</p>
+        <p class="text-large text-center mt-3 mb-1" class="price">€16</p></div>
+      </div> 
+
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="card card-center mb-3 mx-4  p-2 border-secondary" style="max-width: 30rem;">
+          
+        <h3 class="card-title display-6 text-center m-2">Panna Cotta</h3>
+        <p class="text-large text-center mt-3">Creamy Arborio rice with wild porcini mushrooms</p>
+        <p class="text-large text-center mt-3 mb-1" class="price">€16</p></div>
+      </div> 
+
+
+
+
       </div>        
-      <div class="recipe3">
-        <div class="panel">
-        <h3>Tagliatelle al Ragù</h3>
-        <p>Hand-rolled pasta with slow-cooked Bolognese sauce</p>
-        <p class="price">€14</p>
+     
+    </div>
+
       </div>
-      </div>        
-      <div class="recipe4"><div class="panel">
-        <h3>Risotto ai Funghi</h3>
-        <p>Creamy Arborio rice with wild porcini mushrooms</p>
-        <p class="price">€15</p>
-      </div>
+    </div>
+  </div>
+  </section>
+  <section>
+    <div id="mn" class="d-md-none bg-beige" >
+    <h2 class="text-center display-2 pt-3 mx-1 success" >Testimonials</h2>
+    <div class="row gap-1 gap-xl-2 align-items-center justify-content-around">
+      
+      <div class="col-12">
+        <div class="card  mt-5 mb-4  mx-auto p-2 border-secondary" style="max-width: 20rem;">
+          <blockquote>
+            
+        <p class=" text-large text-center mt-4 mx-1">
+          "The Tagliatelle al Ragù reminded me of my grandmother's cooking. Warm, unhurried, and genuinely made with care. Bella Notte feels like a place that still takes food seriously."</p>
+          <h3 class="blockquote-footer text-center text-large m-3">Maria T.</h3>
+
+      </blockquote>
+        <p class="text-large text-center mt-1 mb-2" >⭐⭐⭐⭐⭐</p></div>
+      </div>         <div class="col-12">
+        <div class="card  mt-1 mb-4  mx-auto p-2 border-secondary" style="max-width: 20rem;">
+          <blockquote>
+            
+        <p class=" text-large text-center mt-4">"We came for a birthday dinner and stayed two hours longer than planned. The Tiramisù alone is worth the trip. Easily the best Italian in Chișinău."
+          "</p>
+          <h3 class="blockquote-footer text-center text-large m-3">Jhon K.</h3>
+
+      </blockquote>
+        <p class="text-large text-center mt-1 mb-2" >⭐⭐⭐⭐⭐</p></div>
       </div>    
-      <div class="recipe5"><div class="panel">
-        <h3>Tiramisù della Nonna</h3>
-        <p>Our grandmother's original recipe, made fresh daily</p>
-        <p class="price">€9</p>
-      </div>
-      </div>    
-      <div class="recipe6"><div class="panel">
-        <h3>Panna Cotta</h3>
-        <p>Creamy Arborio rice with wild porcini mushrooms</p>
-        <p class="price">€7</p>
+      <div class="col-12">
+        <div class="card  mt-1 mb-4  mx-auto p-2 border-secondary" style="max-width: 20rem;">
+          <blockquote>
+            
+        <p class=" text-large text-center mt-4">"The best dish is Toasted bread with fresh tomatoes, basil, garlic, and olive oil. Recommended for everyone"</p>
+          <h3 class="blockquote-footer text-center text-large m-3">Alex L.</h3>
+
+      </blockquote>
+        <p class="text-large text-center mt-1 mb-2" >⭐⭐⭐⭐⭐</p></div>
       </div>  
+
+
+
+
+      </div>        
+     
     </div>
 
       </div>
@@ -106,11 +168,11 @@
       width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
       <div class="location">
-        <h4>Opening Hours:</h4>
+        <h4>We are open:</h4>
         <ul>
           <li>Monday – Friday: 11:00 – 22:00</li>
           <li>Saturday: 12:00 – 23:00</li>
-          <li>We work on Holidays!</li>
+          <li>We never close for!</li>
 
         </ul>
       
@@ -118,5 +180,7 @@
       </div>
     </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 </body>
 </html>
